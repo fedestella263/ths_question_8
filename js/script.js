@@ -1,6 +1,6 @@
 $("#button-calculate").click(function() {
     $.ajax({
-        url: "/api.php",
+        url: "./api.php",
         type: "POST",
         dataType: "JSON",
         contentType: "application/json",
